@@ -111,12 +111,14 @@
     <div id="ref-usage">
     <div class="sourceCode"><pre class="sourceCode r"><code><span><span class="fu">make_MYZinits_ENBRQ</span><span class="op">(</span></span>
 <span>  <span class="va">nPatches</span>,</span>
-<span>  <span class="va">max_eip</span>,</span>
+<span>  <span class="va">nR1</span>,</span>
 <span>  MYZopts <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/list.html" class="external-link">list</a></span><span class="op">(</span><span class="op">)</span>,</span>
 <span>  E0 <span class="op">=</span> <span class="fl">5</span>,</span>
 <span>  N0 <span class="op">=</span> <span class="fl">5</span>,</span>
 <span>  B0 <span class="op">=</span> <span class="fl">5</span>,</span>
-<span>  Q0 <span class="op">=</span> <span class="fl">1</span></span>
+<span>  Q0 <span class="op">=</span> <span class="fl">1</span>,</span>
+<span>  R10 <span class="op">=</span> <span class="fl">0</span>,</span>
+<span>  R20 <span class="op">=</span> <span class="fl">0</span></span>
 <span><span class="op">)</span></span></code></pre></div>
     </div>
 
@@ -126,8 +128,8 @@
 <dd><p>the number of patches in the model</p></dd>
 
 
-<dt>max_eip</dt>
-<dd><p>the maximum number of EIP cohorts, an <a href="https://rdrr.io/r/base/integer.html" class="external-link">integer</a></p></dd>
+<dt>nR1</dt>
+<dd><p>number of time steps in R1</p></dd>
 
 
 <dt>MYZopts</dt>
@@ -148,6 +150,14 @@
 
 <dt>Q0</dt>
 <dd><p>total egg laying mosquito density at each patch</p></dd>
+
+
+<dt>R10</dt>
+<dd><p>resting, stage 1, mosquito density at each patch</p></dd>
+
+
+<dt>R20</dt>
+<dd><p>resting, stage 2, mosquito density at each patch</p></dd>
 
 </dl></div>
     <div id="value">

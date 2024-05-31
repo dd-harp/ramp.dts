@@ -109,7 +109,14 @@
     </div>
 
     <div id="ref-usage">
-    <div class="sourceCode"><pre class="sourceCode r"><code><span><span class="fu">make_Lpar_basic</span><span class="op">(</span><span class="va">nHabitats</span>, Lopts <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/list.html" class="external-link">list</a></span><span class="op">(</span><span class="op">)</span>, psi <span class="op">=</span> <span class="fl">1</span><span class="op">/</span><span class="fl">8</span>, phi <span class="op">=</span> <span class="fl">1</span><span class="op">/</span><span class="fl">8</span>, theta <span class="op">=</span> <span class="fl">1</span><span class="op">/</span><span class="fl">100</span><span class="op">)</span></span></code></pre></div>
+    <div class="sourceCode"><pre class="sourceCode r"><code><span><span class="fu">make_Lpar_basic</span><span class="op">(</span></span>
+<span>  <span class="va">nHabitats</span>,</span>
+<span>  Lopts <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/list.html" class="external-link">list</a></span><span class="op">(</span><span class="op">)</span>,</span>
+<span>  psi <span class="op">=</span> <span class="fl">1</span><span class="op">/</span><span class="fl">8</span>,</span>
+<span>  xi <span class="op">=</span> <span class="fl">0</span>,</span>
+<span>  phi <span class="op">=</span> <span class="fl">1</span><span class="op">/</span><span class="fl">8</span>,</span>
+<span>  theta <span class="op">=</span> <span class="fl">1</span><span class="op">/</span><span class="fl">100</span></span>
+<span><span class="op">)</span></span></code></pre></div>
     </div>
 
     <div id="arguments">
@@ -124,6 +131,10 @@
 
 <dt>psi</dt>
 <dd><p>maturation rates for each aquatic habitat</p></dd>
+
+
+<dt>xi</dt>
+<dd><p>delayed maturation due to mean crowding</p></dd>
 
 
 <dt>phi</dt>
