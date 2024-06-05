@@ -44,15 +44,7 @@ of MBPT models that are implemented in **Micro-MoB**:
 
   * `vignette("RM_mosquito")`: read about an implementation of a flexible [Ross-Macdonald
   model](https://journals.plos.org/plospathogens/article?id=10.1371/journal.ppat.1002588) of adult mosquito dynamics.
-  * `vignette("MOI_human")`: read about an implementation of the $(M/M/\infty)$ queuing
-  model for superinfection in humans.
-  * `vignette("BH_aqua")`: read about a simple non-linear model of aquatic (immature)
-  stage mosquito dynamics based on the well known [Beverton-Holt model](https://en.wikipedia.org/wiki/Beverton-Holt_model) from ecology.
-  * `vignette("BQ_mosquito")`: read about a behavioral state model of adult mosquito
-  dynamics.
-  * `vignette("RM_transmission")`: read about how we put together models fulfilling
-  each component to run a simple Ross-Macdonald style model of pathogen transmission
-  between human hosts and mosquito vectors.
+
   
 The article `vignette("Advanced")` contains information on how to extend **Micro-MoB**
 by linking to it from a new package, and how to write new models that interact with

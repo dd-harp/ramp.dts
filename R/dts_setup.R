@@ -28,8 +28,8 @@
 dts_setup = function(modelName = "unnamed",
 
                      # Dynamical Components
-                     MYZname = "RM",
-                     Xname = "SIS",
+                     MYZname = "RM_dts",
+                     Xname = "SIS_dts",
                      Lname = "trace",
 
                      # Model Structure

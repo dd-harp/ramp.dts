@@ -5,26 +5,8 @@ navbar:
     href: reference/index.html
   - text: Articles
     menu:
-    - text: Understanding ramp.dts
-      href: articles/Understanding_ramp_dts.html
-    - text: Contributing
-      href: articles/Contributing.html
-  - text: Malaria Dynamics
-    menu:
     - text: The Ross-Macdonald Mosquito Model
       href: articles/RM-Mosquito.html
-  - text: Aquatic Mosquito Dynamics
-    menu:
-    - text: Trace (forced) model
-      href: articles/aqua_trace.html
-    - text: Basic competition model
-      href: articles/aqua_basic.html
-  - text: Human Infection Dynamics
-    menu:
-    - text: SIS model
-      href: articles/human_sis.html
-    - text: SIP model
-      href: articles/human_sip.html
   - text: Malaria
     menu:
     - text: The Ross-Macdonald model
@@ -208,66 +190,66 @@ reference:
   - get_inits_MYZ.Gtrace
   - update_inits_MYZ.Gtrace
   - make_parameters_MYZ_Gtrace
-- subtitle: basicM
+- subtitle: basicM_dts
   desc: |
-    Specialized methods for basicM, a model of adult mosquito dynamics with no parasite infection dynamics.
+    Specialized methods for basicM_dts, a model of adult mosquito dynamics with no parasite infection dynamics.
   contents:
-  - MBionomics.basicM
-  - F_fqZ.basicM
-  - F_fqM.basicM
-  - F_eggs.basicM
-  - dMYZdt.basicM
-  - setup_MYZpar.basicM
-  - setup_MYZinits.basicM
-  - make_MYZpar_basicM
-  - make_MYZinits_basicM
-  - list_MYZvars.basicM
-  - make_indices_MYZ.basicM
-  - parse_dts_out_MYZ.basicM
-  - make_inits_MYZ_basicM
-  - get_inits_MYZ.basicM
-  - update_inits_MYZ.basicM
-  - make_parameters_MYZ_basicM
-- subtitle: RM
-  desc: |
-    Specialized methods for a Ross-Macdonald-style model of adult mosquito dynamics, modified slightly from a model published by Joan Aron & Robert May (1982).
-  contents:
-  - MBionomics.RM
-  - F_fqZ.RM
-  - F_fqM.RM
-  - F_eggs.RM
-  - dMYZdt.RM
-  - setup_MYZpar.RM
-  - setup_MYZinits.RM
-  - list_MYZvars.RM
-  - make_MYZpar_RM
-  - make_MYZinits_RM
-  - make_indices_MYZ.RM
-  - parse_dts_out_MYZ.RM
-  - make_inits_MYZ_RM
-  - get_inits_MYZ.RM
-  - update_inits_MYZ.RM
-  - make_parameters_MYZ_RM
-- subtitle: ENBRQ
+  - MBionomics.basicM_dts
+  - F_fqZ.basicM_dts
+  - F_fqM.basicM_dts
+  - F_eggs.basicM_dts
+  - dMYZdt.basicM_dts
+  - setup_MYZpar.basicM_dts
+  - setup_MYZinits.basicM_dts
+  - make_MYZpar_basicM_dts
+  - make_MYZinits_basicM_dts
+  - list_MYZvars.basicM_dts
+  - make_indices_MYZ.basicM_dts
+  - parse_dts_out_MYZ.basicM_dts
+  - make_inits_MYZ_basicM_dts
+  - get_inits_MYZ.basicM_dts
+  - update_inits_MYZ.basicM_dts
+  - make_parameters_MYZ_basicM_dts
+- subtitle: RM_dts
   desc: |
     Specialized methods for a Ross-Macdonald-style model of adult mosquito dynamics, modified slightly from a model published by Joan Aron & Robert May (1982).
   contents:
-  - MBionomics.ENBRQ
-  - F_fqZ.ENBRQ
-  - F_fqM.ENBRQ
-  - F_eggs.ENBRQ
-  - dMYZdt.ENBRQ
-  - setup_MYZpar.ENBRQ
-  - setup_MYZinits.ENBRQ
-  - list_MYZvars.ENBRQ
-  - make_MYZpar_ENBRQ
-  - make_MYZinits_ENBRQ
-  - make_indices_MYZ.ENBRQ
-  - parse_dts_out_MYZ.ENBRQ
-  - make_inits_MYZ_ENBRQ
-  - get_inits_MYZ.ENBRQ
-  - update_inits_MYZ.ENBRQ
-  - make_parameters_MYZ_ENBRQ
+  - MBionomics.RM_dts
+  - F_fqZ.RM_dts
+  - F_fqM.RM_dts
+  - F_eggs.RM_dts
+  - dMYZdt.RM_dts
+  - setup_MYZpar.RM_dts
+  - setup_MYZinits.RM_dts
+  - list_MYZvars.RM_dts
+  - make_MYZpar_RM_dts
+  - make_MYZinits_RM_dts
+  - make_indices_MYZ.RM_dts
+  - parse_dts_out_MYZ.RM_dts
+  - make_inits_MYZ_RM_dts
+  - get_inits_MYZ.RM_dts
+  - update_inits_MYZ.RM_dts
+  - make_parameters_MYZ_RM_dts
+- subtitle: ENBRQ_dts
+  desc: |
+    Specialized methods for a Ross-Macdonald-style model of adult mosquito dynamics, modified slightly from a model published by Joan Aron & Robert May (1982).
+  contents:
+  - MBionomics.ENBRQ_dts
+  - F_fqZ.ENBRQ_dts
+  - F_fqM.ENBRQ_dts
+  - F_eggs.ENBRQ_dts
+  - dMYZdt.ENBRQ_dts
+  - setup_MYZpar.ENBRQ_dts
+  - setup_MYZinits.ENBRQ_dts
+  - list_MYZvars.ENBRQ_dts
+  - make_MYZpar_ENBRQ_dts
+  - make_MYZinits_ENBRQ_dts
+  - make_indices_MYZ.ENBRQ_dts
+  - parse_dts_out_MYZ.ENBRQ_dts
+  - make_inits_MYZ_ENBRQ_dts
+  - get_inits_MYZ.ENBRQ_dts
+  - update_inits_MYZ.ENBRQ_dts
+  - make_parameters_MYZ_ENBRQ_dts
 - subtitle: RMlumpy
   desc: |
     Specialized methods for a lumped-days Ross-Macdonald-style model of adult mosquito dynamics
@@ -297,6 +279,7 @@ reference:
   - dLdt
   - setup_Lpar
   - setup_Linits
+  - list_Lvars
   - make_indices_L
   - parse_dts_out_L
   - get_inits_L
@@ -317,23 +300,42 @@ reference:
   - get_inits_L.trace
   - update_inits_L.trace
   - make_parameters_L_trace
-- subtitle: basic
+- subtitle: basic_dts
   desc: |
-    Specialized methods for a basic competition model of aquatic mosquito dynamics.
+    Specialized methods for a basic_dts competition model of aquatic mosquito dynamics.
   contents:
-  - LBionomics.basic
-  - F_alpha.basic
-  - dLdt.basic
-  - setup_Lpar.basic
-  - setup_Linits.basic
-  - make_Lpar_basic
-  - make_Linits_basic
-  - make_indices_L.basic
-  - parse_dts_out_L.basic
-  - make_inits_L_basic
-  - get_inits_L.basic
-  - update_inits_L.basic
-  - make_parameters_L_basic
+  - LBionomics.basic_dts
+  - F_alpha.basic_dts
+  - dLdt.basic_dts
+  - setup_Lpar.basic_dts
+  - setup_Linits.basic_dts
+  - list_Lvars.basic_dts
+  - make_Lpar_basic_dts
+  - make_Linits_basic_dts
+  - make_indices_L.basic_dts
+  - parse_dts_out_L.basic_dts
+  - make_inits_L_basic_dts
+  - get_inits_L.basic_dts
+  - update_inits_L.basic_dts
+  - make_parameters_L_basic_dts
+- subtitle: stages_dts
+  desc: |
+    Specialized methods for a stages_dts competition model of aquatic mosquito dynamics.
+  contents:
+  - LBionomics.stages_dts
+  - F_alpha.stages_dts
+  - dLdt.stages_dts
+  - setup_Lpar.stages_dts
+  - setup_Linits.stages_dts
+  - list_Lvars.stages_dts
+  - make_Lpar_stages_dts
+  - make_Linits_stages_dts
+  - make_indices_L.stages_dts
+  - parse_dts_out_L.stages_dts
+  - make_inits_L_stages_dts
+  - get_inits_L.stages_dts
+  - update_inits_L.stages_dts
+  - make_parameters_L_stages_dts
 - title: Mosquito Bionomics
   desc: |
     Methods to compute or update mosquito bionomic parameters
@@ -412,52 +414,52 @@ reference:
   - get_inits_X.trace
   - update_inits_X.trace
   - make_parameters_X_trace
-- subtitle: SIS
+- subtitle: SIS_dts
   desc: |
-    Specialized methods for the SIS (Susceptible-Infected-Susceptible) model of human dynamics.
+    Specialized methods for the SIS_dts (Susceptible-Infected-Susceptible) model of human dynamics.
   contents:
-  - dXdt.SIS
-  - make_Xinits_SIS
-  - setup_Xinits.SIS
-  - make_indices_X.SIS
-  - list_Xvars.SIS
-  - make_Xpar_SIS
-  - setup_Xpar.SIS
-  - F_X.SIS
-  - F_H.SIS
-  - F_pr.SIS
-  - F_b.SIS
-  - parse_dts_out_X.SIS
-  - make_inits_X_SIS
-  - get_inits_X.SIS
-  - update_inits_X.SIS
-  - make_parameters_X_SIS
-  - HTC.SIS
-  - dts_plot_X.SIS
-  - dts_lines_X_SIS
-- subtitle: SIP
+  - dXdt.SIS_dts
+  - make_Xinits_SIS_dts
+  - setup_Xinits.SIS_dts
+  - make_indices_X.SIS_dts
+  - list_Xvars.SIS_dts
+  - make_Xpar_SIS_dts
+  - setup_Xpar.SIS_dts
+  - F_X.SIS_dts
+  - F_H.SIS_dts
+  - F_pr.SIS_dts
+  - F_b.SIS_dts
+  - parse_dts_out_X.SIS_dts
+  - make_inits_X_SIS_dts
+  - get_inits_X.SIS_dts
+  - update_inits_X.SIS_dts
+  - make_parameters_X_SIS_dts
+  - HTC.SIS_dts
+  - dts_plot_X.SIS_dts
+  - dts_lines_X_SIS_dts
+- subtitle: SIP_dts
   desc: |
-    Specialized methods for the SIP (Susceptible-Infected-Prophylaxis) model of human dynamics.
+    Specialized methods for the SIP_dts (Susceptible-Infected-Prophylaxis) model of human dynamics.
   contents:
-  - dXdt.SIP
-  - make_Xinits_SIP
-  - setup_Xinits.SIP
-  - make_indices_X.SIP
-  - list_Xvars.SIP
-  - make_Xpar_SIP
-  - setup_Xpar.SIP
-  - F_X.SIP
-  - F_H.SIP
-  - F_pr.SIP
-  - F_b.SIP
-  - parse_dts_out_X.SIP
-  - make_inits_X_SIP
-  - get_inits_X.SIP
-  - update_inits_X.SIP
-  - make_parameters_X_SIP
-  - HTC.SIP
-  - dts_plot_X.SIP
-  - dts_lines_X_SIP
+  - dXdt.SIP_dts
+  - make_Xinits_SIP_dts
+  - setup_Xinits.SIP_dts
+  - make_indices_X.SIP_dts
+  - list_Xvars.SIP_dts
+  - make_Xpar_SIP_dts
+  - setup_Xpar.SIP_dts
+  - F_X.SIP_dts
+  - F_H.SIP_dts
+  - F_pr.SIP_dts
+  - F_b.SIP_dts
+  - parse_dts_out_X.SIP_dts
+  - make_inits_X_SIP_dts
+  - get_inits_X.SIP_dts
+  - update_inits_X.SIP_dts
+  - make_parameters_X_SIP_dts
+  - HTC.SIP_dts
+  - dts_plot_X.SIP_dts
+  - dts_lines_X_SIP_dts
 - title: Human Population Dynamics
   desc: |
     Generic methods for the human demography and aging
@@ -724,7 +726,6 @@ reference:
   - OviTraps
   - OviTraps.null
   - setup_ovitraps_null
-
 - title: Setup
   desc: |
     Basic setup for models

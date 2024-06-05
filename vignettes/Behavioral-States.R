@@ -5,9 +5,9 @@ knitr::opts_chunk$set(
 )
 
 ## -----------------------------------------------------------------------------
-#library(ramp.dts)
-devtools::load_all()
+library(ramp.dts)
+#devtools::load_all()
 
 ## -----------------------------------------------------------------------------
-enbrq <- dts_setup(MYZname = "ENBRQ", Xname = "trace")
+enbrq <- dts_setup(MYZname = "ENBRQ_dts", Xname = "trace")
 

@@ -341,15 +341,14 @@ code > span.er { color: #a61717; background-color: #e3d2d2; }
 
 
 
-<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" tabindex="-1"></a><span class="co">#library(ramp.dts)</span></span>
-<span id="cb1-2"><a href="#cb1-2" tabindex="-1"></a>devtools<span class="sc">::</span><span class="fu">load_all</span>()</span>
-<span id="cb1-3"><a href="#cb1-3" tabindex="-1"></a><span class="co">#&gt; ℹ Loading ramp.dts</span></span></code></pre></div>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" tabindex="-1"></a><span class="fu">library</span>(ramp.dts)</span>
+<span id="cb1-2"><a href="#cb1-2" tabindex="-1"></a><span class="co">#devtools::load_all()</span></span></code></pre></div>
 <ul>
 <li><p><span class="math inline">\(D\)</span> is the number of time
 steps that the model runs each day</p></li>
 <li><p>Outputs to other components are summed internally</p></li>
 </ul>
-<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" tabindex="-1"></a>enbrq <span class="ot">&lt;-</span> <span class="fu">dts_setup</span>(<span class="at">MYZname =</span> <span class="st">&quot;ENBRQ&quot;</span>, <span class="at">Xname =</span> <span class="st">&quot;trace&quot;</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" tabindex="-1"></a>enbrq <span class="ot">&lt;-</span> <span class="fu">dts_setup</span>(<span class="at">MYZname =</span> <span class="st">&quot;ENBRQ_dts&quot;</span>, <span class="at">Xname =</span> <span class="st">&quot;trace&quot;</span>)</span></code></pre></div>
 
 
 

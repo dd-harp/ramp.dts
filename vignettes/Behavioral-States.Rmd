@@ -16,8 +16,8 @@ knitr::opts_chunk$set(
 ```
 
 ```{r}
-#library(ramp.dts)
-devtools::load_all()
+library(ramp.dts)
+#devtools::load_all()
 ```
 
 + $D$ is the number of time steps that the model runs each day
@@ -25,6 +25,6 @@ devtools::load_all()
 + Outputs to other components are summed internally 
 
 ```{r}
-enbrq <- dts_setup(MYZname = "ENBRQ", Xname = "trace")
+enbrq <- dts_setup(MYZname = "ENBRQ_dts", Xname = "trace")
 ```
 

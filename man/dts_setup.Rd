@@ -6,8 +6,8 @@
 \usage{
 dts_setup(
   modelName = "unnamed",
-  MYZname = "RM",
-  Xname = "SIS",
+  MYZname = "RM_dts",
+  Xname = "SIS_dts",
   Lname = "trace",
   nPatches = 1,
   nVectors = 1,

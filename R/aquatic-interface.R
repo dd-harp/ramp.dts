@@ -39,6 +39,16 @@ dLdt <- function(t, y, pars, s) {
   UseMethod("dLdt", pars$Lpar[[s]])
 }
 
+#' @title Return the variables as a list
+#' @description This method dispatches on the type of `pars$Lpar[[s]]`.
+#' @param y the variables
+#' @param pars a [list]
+#' @param s the vector species index
+#' @return a [list]
+#' @export
+list_Lvars <- function(y, pars, s) {
+  UseMethod("list_Lvars", pars$Lpar[[s]])
+}
 
 #' @title A function to set up adult mosquito models
 #' @description This method dispatches on `Lname`.
