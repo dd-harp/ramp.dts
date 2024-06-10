@@ -4,14 +4,7 @@
 \alias{parse_dts_out_L.basic_dts}
 \title{Parse the variable names for the basic_dts model}
 \usage{
-\method{parse_dts_out_L}{basic_dts}(dts_out, pars, s)
-}
-\arguments{
-\item{dts_out}{a \link{matrix} of outputs from deSolve}
-
-\item{pars}{a \link{list} that defines the model}
-
-\item{s}{the species index}
+parse_dts_out_L.basic_dts(dts_out, pars, s)
 }
 \value{
 \link{list}

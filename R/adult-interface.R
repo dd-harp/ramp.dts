@@ -119,17 +119,6 @@ make_indices_MYZ <- function(pars, s) {
   UseMethod("make_indices_MYZ", pars$MYZpar[[s]])
 }
 
-#' @title Parse the output of deSolve and return the variables by name in a list
-#' @description This method dispatches on the type of `pars$MYZpar`.
-#' It computes the variables by name and returns a named list.
-#' @param dts_out a [matrix] of outputs from deSolve
-#' @param pars a [list] that defines a model
-#' @param s the species index
-#' @return [list]
-#' @export
-parse_dts_out_MYZ <- function(dts_out, pars, s) {
-  UseMethod("parse_dts_out_MYZ", pars$MYZpar[[s]])
-}
 
 #' @title Return initial values as a vector
 #' @description This method dispatches on the type of `pars$MYZpar`.

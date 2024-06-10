@@ -1,5 +1,53 @@
 # functions to set up models
 
+
+#' @title Make base parameters, assuming nVectors = nHosts = 1
+#' @return a [list]
+#' @export
+make_parameters_dts = function(){
+  pars = list()
+  class(pars) <- "dts"
+
+  pars$MYZpar = list()
+  pars$Lpar = list()
+  pars$Xpar = list()
+  pars$Hpar = list()
+  pars$vars = list()
+
+  pars$Lambda = list()
+  pars <- setup_EGGpar_static(pars)
+  pars <- setup_BFpar_static(pars)
+
+  pars$Linits = list()
+  pars$MYZinits = list()
+  pars$Xinits = list()
+
+  pars$ix = list()
+  pars$ix$X = list()
+  pars$ix$MYZ = list()
+  pars$ix$L = list()
+
+
+  pars$outputs = list()
+  pars$compute = list()
+
+  pars$HostAvailability = list()
+
+  pars <- setup_abiotic_null(pars)
+  pars <- setup_shock_null(pars)
+  pars <- setup_control_null(pars)
+  pars <- setup_vc_null(pars)
+  pars <- setup_behavior_null(pars)
+  pars <- setup_habitat_dynamics_static(pars)
+  pars <- setup_bionomics_static(pars)
+  pars <- setup_visitors_static(pars)
+  pars <- setup_resources_null(pars)
+  pars <- setup_travel_static(pars)
+  pars <- setup_exposure_pois(pars)
+
+  return(pars)
+}
+
 #' @title Set up a model for dts_diffeqn
 #' @param modelName is a name for the model (arbitrary)
 #' @param MYZname is a character string defining a MYZ model

@@ -85,16 +85,6 @@ make_indices_L <- function(pars, s) {
   UseMethod("make_indices_L", pars$Lpar[[s]])
 }
 
-#' @title Parse the output of deSolve and return the variables by name in a list
-#' @description This method dispatches on the type of `pars$Lpar`. Attaches the
-#' state variables for the aquatic ecology model to a list and returns it
-#' @param dts_out a [matrix] of outputs from deSolve
-#' @param pars a [list] that defines the model
-#' @param s the species index
-#' @export
-parse_dts_out_L <- function(dts_out, pars, s) {
-  UseMethod("parse_dts_out_L", pars$Lpar[[s]])
-}
 
 #' @title Return initial values as a vector
 #' @description This method dispatches on the type of `pars$Lpar`.

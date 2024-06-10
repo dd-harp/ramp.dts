@@ -4,14 +4,7 @@
 \alias{parse_dts_out_MYZ.Gtrace}
 \title{Parse the output of deSolve and return variables for the Gtrace model}
 \usage{
-\method{parse_dts_out_MYZ}{Gtrace}(dts_out, pars, s)
-}
-\arguments{
-\item{dts_out}{a \link{matrix} of outputs from deSolve}
-
-\item{pars}{a \link{list} that defines a model}
-
-\item{s}{the species index}
+parse_dts_out_MYZ.Gtrace(dts_out, pars, s)
 }
 \value{
 \link{list}
